@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Familia Martínez Adamuz</title>
+</head>
+<body>
+    <!-- Formulario de autenticación -->
+    <form id="login-form" onsubmit="authenticate(event)">
+        <h1>Acceso</h1>
+        <input type="text" id="username" placeholder="Usuario" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Entrar</button>
+        <p id="error-message" style="color: red; display: none;">Usuario o contraseña incorrectos</p>
+    </form>    
+    <div id="main-content" style="display: none;">
+        <div class="encabezado">
+            <h1>FAMILIA MARTÍNEZ ADAMUZ</h1>
+            <h2>C/ Virgen de la Consolación 20, 2ºB - 18015 Granada</h2>
+        </div>
+        <div class="datos_personales">
+            <div>
+                <form action="" class="anto">
+                    <ul>
+                        <li class="nombre">Antonio Javier Martínez Pérez</li>
+                        <li class="dni">DNI: 24.268.843-W</li>
+                        <li class="telefono">Teléfono: 626284099</li>
+                        <li class="fecha_nacimiento">Fecha de nacimiento: 19-10-1972</li>
+                        <li class="edad"></li>
+                        <li><a href="../../../Anto/" target="_blank" rel="noopener noreferrer">Enlace a carpeta personal</a></li>
+                    </ul>
+                </form>
+            </div>
+            <div>
+                <form action="" class="ana">
+                    <ul>
+                        <li class="nombre">Ana María Adamuz Laredo</li>
+                        <li class="dni">DNI: 44.292.720-X</li>
+                        <li class="telefono">Teléfono: 676665928</li>
+                        <li class="fecha_nacimiento">Fecha de nacimiento: 11-02-1976</li>
+                        <li class="edad"></li>
+                        <li><a href="../../../Ana/" target="_blank" rel="noopener noreferrer">Enlace a carpeta personal</a></li>
+                    </ul>
+                </form>
+            </div>
+            <div>
+                <form action="" class="aj">
+                    <ul>
+                        <li class="nombre">Antonio Javier Martínez Adamuz</li>
+                        <li class="dni">DNI: 76.590.440-A</li>
+                        <li class="telefono">Teléfono: 603582970</li>
+                        <li class="fecha_nacimiento">Fecha de nacimiento: 22-12-2005</li>
+                        <li class="edad"></li>
+                        <li><a href="../../../Antonio Javier/" target="_blank" rel="noopener noreferrer">Enlace a carpeta personal</a></li>
+                    </ul>
+                </form>
+            </div>
+            <div>
+                <form action="" class="pablo">
+                    <ul>
+                        <li class="nombre">Pablo Martínez Adamuz</li>
+                        <li class="dni">DNI: 74.091.734-V</li>
+                        <li class="telefono">Teléfono: </li>
+                        <li class="fecha_nacimiento">Fecha de nacimiento: 05-12-2015</li>
+                        <li class="edad"></li>
+                        <li><a href="../../../Pablo/" target="_blank" rel="noopener noreferrer">Enlace a carpeta personal</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+</html>
